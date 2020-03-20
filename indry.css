@@ -8,6 +8,13 @@ body {
     height: 300px;
     justify-self: center;
 } */
+/* service */
+#service h1{
+    text-align: justify;
+}
+#service p{
+    text-align: justify;
+}
 /* Carousel indicators */
 .container-fluid{
     background-color: #F0FFFF;
@@ -86,7 +93,16 @@ h2::after {
     border: 5px double;    
 }
 
-/* features */
+/* features -- work*/
+#work h4{
+    padding-top: 50px;
+}
+#work h1{
+    text-align: justify;
+}
+#work .container{
+    padding-top: 50px;
+}
 h2{
 	font-size: 24px;
 	padding-bottom: 15px;
@@ -120,4 +136,13 @@ h2{
 }
 .heading p {
   text-align: left;
+}
+
+/* footer */
+footer{
+    background-color: #FF7F50;
+    padding: 50px 0 20px 50px;
+}
+ul li{
+    list-style-type: none;
 }
