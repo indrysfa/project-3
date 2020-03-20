@@ -7,11 +7,132 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="ika.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <style>
+      #travel::before{
+        content: "";
+        display: block;
+        height: 200px;
+        width: 100px;
+        background-color: black;
+      }
+
+
+    </style>
+
+    
+
+   
 
     <title>Tugas Project ke-3</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">HELLO TRAVEL MANIA</h1>
+        <p class="lead">Aku hanya ingin ketenangan.Bukan rumah, uang, atau ketenaran. Aku hanya butuh ketenangan.Ia sangat jauh, hanya angan-angan</p>
+        <br>
+        <br>
+        <div class="header" style="text-align: center;">
+          <p><h1 id="Travel">Travel Before You Run Out Time</h1></p>
+          
+
+          
+          
+        
+        </div>
+        <span class="slide">
+          <a href="#" onclick="openslidemenu()">
+          <i class="fas fa-bars"></i>
+          </a>
+        </span>
+      </div>
+        <div id="menu" class="sidebar">
+          <header>MENU</header>
+          <a href="#" clas="close" onclick="closesidemenu()">
+            <i class="fas fa-times"></i>
+          </a>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+    <div id="jumbotron-fluid"></div>
+    <div id="About" style="background-color: wheat; width: 100vw; height: 100vh;">
+      <div class="content" widht="250" height="100%" style="text-align: center;">
+        <p><h1>MENGAPA TRAVEL MANIA</h1></p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste at cupiditate laborum cum exercitationem. Tenetur eius asperiores maiores labore necessitatibus quibusdam dignissimos numquam dolorum ullam, molestiae ipsam hic. Temporibus, quaerat!</p>
+      </div>
+    <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title" style="text-align: center; background-color: wheat;"> 1. Promo Asia</h2>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime harum sit, quod vero provident corporis assumenda numquam dignissimos recusandae adipisci nihil, distinctio beatae at consequatur voluptatum ab rerum, molestiae a.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title" style="text-align: center; background-color: wheat;"> 2. Promo Eropa</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit libero voluptatibus quam impedit dolorem aut magnam accusantium quo doloribus enim? Repudiandae eligendi quidem fugit odio nemo provident totam sint natus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title" style="text-align: center; background-color: wheat;"> 3. Promo Timur-Tengah</h2>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime harum sit, quod vero provident corporis assumenda numquam dignissimos recusandae adipisci nihil, distinctio beatae at consequatur voluptatum ab rerum, molestiae a.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title" style="text-align: center; background-color: wheat;"> 4. Promo Domestik</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit libero voluptatibus quam impedit dolorem aut magnam accusantium quo doloribus enim? Repudiandae eligendi quidem fugit odio nemo provident totam sint natus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Service" style="background-color: whitesmoke; width: 100vw; height: 100vh;"></div>
+    <div id="Contact" style="background-color: burlywood; width: 100vw; height: 100vh;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
